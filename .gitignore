@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+results.csv
+time_vs_n.png
