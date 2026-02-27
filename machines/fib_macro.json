@@ -1,0 +1,17 @@
+{
+  "type": "macro",
+  "name": "fibonacci_unary_macro",
+  "description": "Máquina macro que, dado n en unary (111..), produce F(n) en unary en el campo B: #A#B#",
+  "conventions": {
+    "alphabet": ["1", "#", "_"],
+    "blank": "_",
+    "separator": "#",
+    "input_encoding": "unary: n => '1' repeated n times"
+  },
+  "macro_steps": [
+    {"op": "normalize_input_to_fields", "args": {}},
+    {"op": "init_A_B", "args": {"A": "", "B": "1"}},
+    {"op": "consume_input_and_iterate", "args": {}},
+    {"op": "finish_and_cleanup", "args": {}}
+  ]
+}
