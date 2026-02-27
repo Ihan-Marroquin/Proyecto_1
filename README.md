@@ -12,7 +12,7 @@ El ejemplo principal es una **máquina macro** que calcula la sucesión de Fibon
 
 ---
 
-## Convenciones (lo que debes incluir en la entrega)
+## Convenciones
 - **Alfabeto de la cinta**: `{1, #, _}`  
   - `1` = unidad (unary).  
   - `#` = separador / marcador de campos.  
